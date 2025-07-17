@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pandas
+openpyxl # For .xlsx
+python-multipart # For handling file uploads in FastAPI
+ollama # For interacting with the local Ollama instance
+numpy # For numerical operations in cosine similarity
+scikit-learn # For cosine_similarity
+chromadb # NEW: For the vector database
+langchain # Core LangChain library
+langchain-community # For document loaders
+unstructured # For parsing various document types (e.g., .docx)
+python-docx # Specific dependency for .docx if unstructured needs it
